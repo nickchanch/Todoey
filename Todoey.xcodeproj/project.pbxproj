@@ -12,6 +12,7 @@
 		BF5F74D921F5E16900F3EA7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5F74D721F5E16900F3EA7A /* Main.storyboard */; };
 		BF5F74DB21F5E16D00F3EA7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5F74DA21F5E16D00F3EA7A /* Assets.xcassets */; };
 		BF5F74DE21F5E16D00F3EA7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5F74DC21F5E16D00F3EA7A /* LaunchScreen.storyboard */; };
+		BFFD8EEF21F71FC100C71BB1 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD8EEE21F71FC100C71BB1 /* ListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BF5F74DA21F5E16D00F3EA7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF5F74DD21F5E16D00F3EA7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF5F74DF21F5E16D00F3EA7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFFD8EEE21F71FC100C71BB1 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				BF5F74D321F5E16900F3EA7A /* AppDelegate.swift */,
 				BF5F74D521F5E16900F3EA7A /* TodoListViewController.swift */,
 				BF5F74D721F5E16900F3EA7A /* Main.storyboard */,
+				BFFD8EEE21F71FC100C71BB1 /* ListItem.swift */,
 				BF5F74DA21F5E16D00F3EA7A /* Assets.xcassets */,
 				BF5F74DC21F5E16D00F3EA7A /* LaunchScreen.storyboard */,
 				BF5F74DF21F5E16D00F3EA7A /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFD8EEF21F71FC100C71BB1 /* ListItem.swift in Sources */,
 				BF5F74D621F5E16900F3EA7A /* TodoListViewController.swift in Sources */,
 				BF5F74D421F5E16900F3EA7A /* AppDelegate.swift in Sources */,
 			);
